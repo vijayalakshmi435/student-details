@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.std-info{
+    width:700px;
+    height: 400px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subjects{
+    width: 350px;
+    height: 400px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.subjects span{
+    font-size: 22px;
+}
+.subjects input{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+.mrks{
+    width: 350px;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.mrks span{
+    font-size: 22px;
+}
+.mrks input{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.spn1{
+    width: 200px;
+    height: 30px;
+}
+.spn2{
+    width: 200px;
+    height: 30px;
+}
+.fail{
+    width: 80px;
+    height: 30px;
+    display: none;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.pass{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+

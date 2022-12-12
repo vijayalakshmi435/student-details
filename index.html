@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main">
+        <div class="std-info">
+            <div class="subjects">
+                <span>subjects</span>
+                <input type="text" placeholder="English">
+                <input type="text" placeholder="Telugu">
+                <input type="text" placeholder="Accounts">
+                <input type="text" placeholder="Statistics">
+                <input type="text" placeholder="Economics">
+                <span class="fail" id="fail">FAIL</span>
+                <span class="pass" id="pas">PASS</span>
+               <span>total=<span id="tot"></span></span>
+                <span>percentage=<span id="pert"></span></span>
+            </div>
+            <div class="mrks">
+                <span>marks</span>
+                <input id="m1" type="number">
+                <input id="m2" type="number">
+                <input id="m3" type="number">
+                <input id="m4" type="number">
+                <input id="m5" type="number">
+                <span class="spn1"></span>
+                <span class="spn2"></span>
+
+            </div>
+            <button onclick="sub()">submit</button>
+        </div>
+    </section>
+    
+</body>
+<script src="script.js"></script>
+</html>
